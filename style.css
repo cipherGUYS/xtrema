@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(221, 221, 249);
+    background-color: #16213E;
     overflow: hidden;
 }
 
@@ -55,4 +55,21 @@ form, .main-box {
     .btn {
         width: 130px;
     }
+}
+
+.xtrema {
+    font-family: 'Caudex', serif;
+    margin-top: 90px;
+    font-size: 50px;
+}
+
+
+#uuid, #score {
+    display:inline-flex !important;
+}
+
+.scoreboard {
+    margin-top: 40px;
+    background-color: #53a088;
+    backdrop-filter: blur(10px) !important;
 }

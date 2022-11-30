@@ -3,7 +3,9 @@
 }
 
 body {
-    background-color: #16213E;
+    font-family: 'Caudex', serif !important;
+    background-image: url("./Desktop\ -\ 1.png");
+    background-repeat: 100%;
     overflow: hidden;
 }
 
@@ -58,9 +60,12 @@ form, .main-box {
 }
 
 .xtrema {
+
     font-family: 'Caudex', serif;
-    margin-top: 90px;
+    margin-top: 300px;
+    margin-bottom: 50px;
     font-size: 50px;
+    color: rgb(168, 96, 44);
 }
 
 
@@ -69,7 +74,15 @@ form, .main-box {
 }
 
 .scoreboard {
-    margin-top: 40px;
-    background-color: #53a088;
+
+    background-color: rgba(127, 95, 51, 0.6);
     backdrop-filter: blur(10px) !important;
+}
+
+.scoreboard-text {
+    font-family: 'Caudex', serif;
+}
+
+.card-body {
+    font-family: 'Caudex', serif !important;
 }

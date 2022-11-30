@@ -44,7 +44,7 @@ function bblSort(arr){
 
   data.forEach(element => {
     count++;
-    count<=3?style="width:100%;background-color:rgba(255, 255, 255, 1)":style="width:100%;background-color:rgba(188, 188, 188, 1)";
+    count<=3?style="width:100%;background-color:rgba(255, 255, 255, 1)":style="width:100%;background-color:rgba(255, 255, 255, 0.6);";
     box.innerHTML+=`<div class="mb-2 col-12 d-flex justify-content-center">
     <div id="ec-card" class="card card-branch" style="${style}">
         <div class="card-body">

@@ -30,7 +30,7 @@ function bblSort(arr){
 	
   for(var i = 0; i < arr.length; i++){
   for(var j = 0; j < ( arr.length - i -1 ); j++){
-    if(arr[j].score > arr[j+1].score){
+    if(arr[j]["Total Score"] > arr[j+1]["Total Score"]){
     var temp = arr[j]
     arr[j] = arr[j + 1]
     arr[j+1] = temp
@@ -50,10 +50,10 @@ function bblSort(arr){
         <div class="card-body">
             <div class="row">
                 <div class="col">
-                    <h5 id="uuid" class="ms-3">${element.uid}</h5><br>
+                    <h5 id="uuid" class="ms-3">${element['UID']}</h5><br>
                 </div>
                 <div class="col text-end">
-                    <h5 id="score" class="mt-0 me-3 mb-2">${element.score}</h5>
+                    <h5 id="score" class="mt-0 me-3 mb-2">${element["Total Score"]}</h5>
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ let data=[
   },
   {
     name:"Sabin Shajan",
-    score:34,
+    score:0,
     uid:"476"
   },
   
@@ -46,15 +46,15 @@ let data=[
     uid:"676"
   },{
     name:"Jevin K Mathew",
-    score:50,
+    score:0,
     uid:"580"
   },{
     name:"Abel Benny",
-    score:50,
+    score:0,
     uid:"572"
   },{
     name:"VISHNU MANOJKUMAR A V",
-    score:50,
+    score:0,
     uid:"576"
   }
 ]

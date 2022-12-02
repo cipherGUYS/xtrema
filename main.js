@@ -1,13 +1,13 @@
 let data=[
   {
     name:"Jose Joyal Shaji",
-    score:35,
+    score:70,
     uid:"663"
     
   },
   {
     name:"Alan S",
-    score:25,
+    score:50,
     uid:"680"
   },
   
@@ -30,19 +30,19 @@ let data=[
   
   {
     name:"Alan Shaji",
-    score:40,
+    score:80,
     uid:"677"
   },{
     name:"Richa Sara Kuruvilla",
-    score:20,
+    score:40,
     uid:"466"
   },{
     name:"Parvathy V",
-    score:15,
+    score:30,
     uid:"467"
   },{
     name:"Aswin Sreenivas",
-    score:15,
+    score:30,
     uid:"676"
   },{
     name:"Jevin K Mathew",

@@ -1,4 +1,16 @@
-let data =[
+let data=[
+  {
+    name:"Jose Joyal Shaji",
+    score:35,
+    uid:"663"
+    
+  },
+  {
+    name:"Alan S",
+    score:25,
+    uid:"680"
+  },
+  
   {
     name:"Rahesh Rajappan",
     score:0,
@@ -15,31 +27,23 @@ let data =[
     uid:"476"
   },
   
-  {
-    name:"Jose Joyal Shaji",
-    score:30,
-    uid:"663"
-  },
+  
   {
     name:"Alan Shaji",
-    score:50,
+    score:40,
     uid:"677"
   },{
     name:"Richa Sara Kuruvilla",
-    score:50,
+    score:20,
     uid:"466"
   },{
     name:"Parvathy V",
-    score:50,
+    score:15,
     uid:"467"
   },{
     name:"Aswin Sreenivas",
-    score:50,
+    score:15,
     uid:"676"
-  },{
-    name:"Alan S",
-    score:50,
-    uid:"680"
   },{
     name:"Jevin K Mathew",
     score:50,
@@ -58,7 +62,7 @@ function bblSort(arr){
 	
   for(var i = 0; i < arr.length; i++){
   for(var j = 0; j < ( arr.length - i -1 ); j++){
-    if(arr[j]["Total Score"] > arr[j+1]["Total Score"]){
+    if(arr[j].score < arr[j+1].score){
     var temp = arr[j]
     arr[j] = arr[j + 1]
     arr[j+1] = temp
@@ -70,18 +74,19 @@ function bblSort(arr){
   box=document.getElementById("board");
   count=0;
 
+  
   data.forEach(element => {
     count++;
-    count<=3?style="width:100%;background-color:rgba(255, 255, 255, 1)":style="width:100%;background-color:rgba(255, 255, 255, 0.6);";
+    count<=5?style="width:100%;background-color:rgba(255, 255, 255, 1)":style="width:100%;background-color:rgba(255, 255, 255, 0.6);";
     box.innerHTML+=`<div class="mb-2 col-12 d-flex justify-content-center">
     <div id="ec-card" class="card card-branch" style="${style}">
         <div class="card-body">
             <div class="row">
                 <div class="col">
-                    <h5 id="uuid" class="ms-3">${element['UID']}</h5><br>
+                    <h5 id="uuid" class="ms-3">${element.uid}</h5><br>
                 </div>
                 <div class="col text-end">
-                    <h5 id="score" class="mt-0 me-3 mb-2">${element["Total Score"]}</h5>
+                    <h5 id="score" class="mt-0 me-3 mb-2">${element.score}</h5>
                 </div>
             </div>
         </div>

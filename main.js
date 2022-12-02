@@ -1,29 +1,57 @@
 let data =[
   {
-    name:"akash",
-    "Total Score":45,
-    "UID":"uhfew"
+    name:"Rahesh Rajappan",
+    score:0,
+    uid:"543"
   },
   {
-    name:"tomin",
-    score:56,
-    uid:"5386"
+    name:"Franio Sonilal",
+    score:0,
+    uid:"570"
   },
   {
-    name:"dona",
+    name:"Sabin Shajan",
     score:34,
-    uid:"djkhhd"
+    uid:"476"
   },
   
   {
-    name:"rese",
+    name:"Jose Joyal Shaji",
     score:30,
-    uid:"djkhhd"
+    uid:"663"
   },
   {
-    name:"mathews",
+    name:"Alan Shaji",
     score:50,
-    uid:"3435"
+    uid:"677"
+  },{
+    name:"Richa Sara Kuruvilla",
+    score:50,
+    uid:"466"
+  },{
+    name:"Parvathy V",
+    score:50,
+    uid:"467"
+  },{
+    name:"Aswin Sreenivas",
+    score:50,
+    uid:"676"
+  },{
+    name:"Alan S",
+    score:50,
+    uid:"680"
+  },{
+    name:"Jevin K Mathew",
+    score:50,
+    uid:"580"
+  },{
+    name:"Abel Benny",
+    score:50,
+    uid:"572"
+  },{
+    name:"VISHNU MANOJKUMAR A V",
+    score:50,
+    uid:"576"
   }
 ]
 function bblSort(arr){

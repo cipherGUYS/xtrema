@@ -1,8 +1,8 @@
 let data =[
   {
     name:"akash",
-    score:45,
-    uid:"uhfew"
+    "Total Score":45,
+    "UID":"uhfew"
   },
   {
     name:"tomin",
